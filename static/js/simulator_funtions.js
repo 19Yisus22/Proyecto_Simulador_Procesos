@@ -91,12 +91,12 @@ function crearGrafica(idCanvas, secuencia, movimientos, nombre) {
             datasets: [{
                 label: 'Posición del Cilindro',
                 data: secuencia,
-                borderColor: '#43a047',
-                backgroundColor: 'rgba(67, 160, 71, 0.1)',
+                borderColor: '#1976d2',
+                backgroundColor: 'rgba(25, 118, 210, 0.15)',
                 borderWidth: 3,
                 pointRadius: 6,
                 pointHoverRadius: 8,
-                pointBackgroundColor: '#43a047',
+                pointBackgroundColor: '#1976d2',
                 pointBorderColor: '#fff',
                 pointBorderWidth: 2,
                 tension: 0.1,
@@ -110,10 +110,10 @@ function crearGrafica(idCanvas, secuencia, movimientos, nombre) {
             plugins: {
                 legend: { display: true, position: 'top', labels: { color: '#000', font: { size: 12, weight: 'bold' } } },
                 tooltip: {
-                    backgroundColor: 'rgba(46,125,50,0.9)',
-                    titleColor: '#000',
-                    bodyColor: '#000',
-                    borderColor: '#43a047',
+                    backgroundColor: 'rgba(21, 101, 192, 0.9)',
+                    titleColor: '#fff',
+                    bodyColor: '#fff',
+                    borderColor: '#1976d2',
                     borderWidth: 2,
                     padding: 12,
                     callbacks: {

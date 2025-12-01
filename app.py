@@ -12,4 +12,4 @@ def index():
     return render_template("simulator.html")
 
 if __name__ == "__main__":
-    app.run(debug=True, port=3000)
+    app.run(debug=False, port=2005)
